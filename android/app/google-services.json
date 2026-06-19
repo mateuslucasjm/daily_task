@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "251796083367",
+    "project_id": "daily-task-app-mt-lucas",
+    "storage_bucket": "daily-task-app-mt-lucas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251796083367:android:330ed1cd093e8497680182",
+        "android_client_info": {
+          "package_name": "com.example.daily_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOa86q3G72KsQXtdZr3R0RsFVBo6aU3cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

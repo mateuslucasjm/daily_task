@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "daily-task-app-mt-lucas",
+          "appId": "1:251796083367:android:330ed1cd093e8497680182",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "daily-task-app-mt-lucas",
+          "configurations": {
+            "android": "1:251796083367:android:330ed1cd093e8497680182",
+            "ios": "1:251796083367:ios:b429c090d86c0c96680182",
+            "web": "1:251796083367:web:85db6826def4f758680182"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
